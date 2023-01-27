@@ -41,7 +41,7 @@
 
 # 📖 Morse Code <a name="about-project"></a>
 
-In this repo I am trying to decode morse code usin Ruby.
+In this repo I am trying to decode morse code using Ruby.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -63,17 +63,14 @@ In this repo I am trying to decode morse code usin Ruby.
 
 ### Key Features <a name="key-features"></a>
 
-- Search for any country registerd in the website.
-- Select a country to see the weather forcast for the day and a small information about that country.
+- Decode message written in morse code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
+<!--
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link]()
-
+- [Live Demo Link]() -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -87,7 +84,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - Ruby
-- Any code editer (vs code)
+- Any code editer RECOMMENDED:(vs code)
 
 ### Setup
 
@@ -97,26 +94,13 @@ Clone this repository to your desired folder:
 
 ### Install
 
-1. Run `npm install`
+1. Run `gem install bundler`
 
 ### Usage
 
 To run the project, execute the following command:
 
-1. for build `npm run build`
-2. for development `npm start`
-
-### Run tests
-
-To run tests, run the following command:
-
-`npm test`
-
-### Deployment
-
-You can deploy this project using:
-
-`npm run deploy - Deploys using gh-pages`
+1. Run `bundle install`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,9 +117,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add more information about a country
-- [ ] Add image gallary for a country.
-- [ ] Add more forcast information.
+- [ ] Add feature which takes a encoded message from a user and returns the decoded message.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
